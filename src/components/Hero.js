@@ -29,7 +29,7 @@ class Hero extends Component {
               <h1 className='pt-1 px-3 pb-3'>{title}</h1>
               <div className='row justify-content-center px-3'>
                 <h4 className='col-md-10 col-lg-6'>
-                 Najbolje mesto za oglase u Sandžaku i dijaspori !<br/> Besplatno postavi svoj oglas ili pronađi sve što ti je potrebno !
+                Mobilna aplikacija za oglašavanje za Sandžak i dijasporu ⚜️🌍 <br/> Besplatno postavi svoj oglas ili pronađi sve što ti je potrebno !
                 </h4>
               </div>
               < AppLinks />

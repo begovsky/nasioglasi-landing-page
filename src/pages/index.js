@@ -99,38 +99,6 @@ export default function Home() {
           </div>
         </div>
 
-        {/* <div id={styles.section_use_cases}>
-          <h2 className="h2-lg my-lg text-center">Ways To Use Roads</h2>
-          <div className="container">
-            <div className="row">
-              <UseCase 
-                imagePath="/images/icons/note.svg"
-                title="Record voice notes for yourself"
-              />
-              <UseCase 
-                imagePath="/images/icons/chat.svg"
-                title="Chat with a friend asynchronously"
-              />
-              <UseCase 
-                imagePath="/images/icons/book.svg"
-                title="Create a virtual book club"
-              />
-              <UseCase 
-                imagePath="/images/icons/lecture.svg"
-                title="Record a lecture and answer questions"
-              />
-              <UseCase 
-                imagePath="/images/icons/team.svg"
-                title="Share weekly updates with your team"
-              />
-              <UseCase 
-                imagePath="/images/icons/podcast.svg"
-                title="Co-create podcasts with others"
-              />
-            </div>
-          </div>
-        </div> */}
-
         <div id={styles.section_faq}>
           <h2 className="h2-lg my-lg text-center">Najčešća Pitanja</h2>
           <div className="row justify-content-center">

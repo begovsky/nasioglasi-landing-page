@@ -1,15 +1,5 @@
-# Roads
+# Nasi Oglasi
 
-This is the landing page for Roads, the social audio app that lets you have asynchronous conversations.
+This is the landing page for Nasi Oglasi.
 
-![Roads Cover Photo](https://roadsaudioassets.s3.amazonaws.com/Roads_Cover.png)
-
-## Run Development Server
-
-```bash
-npm run dev
-```
-
-## Blog Links Until I add a /blogs page
-
-1. The Evolution of Audio: From Radio to Roads https://roadsaudio.com/blogs/the-evolution-of-audio-from-radio-to-roads
+![Nasi Oglasi Cover Photo](https://i.imgur.com/77Gyxcp.png)

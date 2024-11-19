@@ -12,7 +12,7 @@ const DynamicMeta = () => {
       {/* PRIMARY META */}
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" type="image/png" href="https://i.imgur.com/77Gyxcp.png" />
 
       <title>{currentMeta.title}</title>
       <meta name="title" content={currentMeta.title} />
@@ -24,19 +24,19 @@ const DynamicMeta = () => {
       <meta property="og:description" content={currentMeta.description} />
       <meta property="og:image" content={currentMeta.image} />
 
-      <meta name="apple-itunes-app" content="app-id=6443961864"></meta>
+      <meta name="apple-itunes-app" content="app-id=6648797230"></meta>
 
       {/*  Twitter */}
       {isRootPath ? (
         // show "download app link"
         <>
           <meta name="twitter:card" content="app" />
-          <meta name="twitter:app:name:iphone" content="Roads" />
-          <meta name="twitter:app:id:iphone" content="6443961864" />
-          <meta name="twitter:app:name:googleplay" content="Roads" />
-          <meta name="twitter:app:id:com.onemanstartup.roads" />
+          <meta name="twitter:app:name:iphone" content="Naši Oglasi" />
+          <meta name="twitter:app:id:iphone" content="6648797230" />
+          <meta name="twitter:app:name:googleplay" content="Naši Oglasi" />
+          <meta name="twitter:app:id:com.begovsky.nasioglasi" />
           {/* add root canonical */}
-          <link rel="canonical" href="https://roadsaudio.com" />
+          <link rel="canonical" href="https://nasioglasi.com" />
         </>
       ) : (
         <>

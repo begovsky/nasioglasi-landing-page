@@ -21,7 +21,7 @@ class AppLinks extends Component {
         <Link href={appleLink} onClick={ () => this.trackClickGA("AppStoreLinkClick") }>
           <Image 
             src="/images/download_apple.png"
-            alt="Download Roads on the App Store"
+            alt="Download Naši Oglasi on the App Store"
             height={50}
             width={150}
             className="m-2"
@@ -30,7 +30,7 @@ class AppLinks extends Component {
         <Link href={googleLink} onClick={ () => this.trackClickGA("GooglePlayLinkClick") }>
           <Image 
             src="/images/download_google.png"
-            alt="Download Roads on the Play Store"
+            alt="Download Naši Oglasi on the Play Store"
             height={50}
             width={150}
             className="m-2"

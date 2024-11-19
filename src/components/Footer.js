@@ -15,10 +15,6 @@ class Footer extends Component {
           <Link href="https://nasioglasi.netlify.app/" target="_self" className='btn btn-link'>
             Politika Privatnosti
           </Link>
-          {/* <span>|</span>
-          <Link href="https://1manstartup.com/terms-and-conditions" target="_blank" className='btn btn-link'>
-            Terms
-          </Link> */}
           <span>|</span>
           <Link href="mailto:Nasi Oglasi<nasioglasi.podrska@gmail.com>" className='btn btn-link'>
             Kontakt
@@ -32,18 +28,6 @@ class Footer extends Component {
             <Link href="https://www.instagram.com/nasioglasi/" target="_self" className='social-icon mx-1'>
               <IoLogoInstagram size={25}/>
             </Link>
-{/* 
-            <Link href="https://www.linkedin.com/company/roads-audio/" target="_blank" className='social-icon mx-1'>
-              <IoLogoLinkedin size={25}/>
-            </Link>
-
-            <Link href="https://www.tiktok.com/@roadsaudio" target="_blank" className='social-icon mx-1'>
-              <IoLogoTiktok size={25}/>
-            </Link>
-
-            <Link href="https://www.youtube.com/@RoadsAudio" target="_blank" className='social-icon mx-1'>
-              <IoLogoYoutube size={25}/>
-            </Link> */}
           </div>
 
           <p>Copyright © {current_year}, Nasi Oglasi. All Rights Reserved.</p>
