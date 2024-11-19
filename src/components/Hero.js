@@ -11,45 +11,14 @@ class Hero extends Component {
       <>
         <div id={styles.section_headline_container}>
           <div id={styles.section_headline}>
-            <div id={styles.qr_code} className={`d-none d-lg-block`}>
-                <Image 
-                  src="/images/RoadsAppQR.png"
-                  alt="Roads Logo"
-                  height={100}
-                  width={100}
-                  className="pr-3"
-                />
-              </div>
-            <span className={styles.vLine1}>
-              <Image 
-                src="/images/node-bright.svg" 
-                width={15} 
-                height={15} 
-                alt="Circle used for background style"
-                className={`${styles.node_sm1} d-none d-md-block`}
-              />
-            </span>
-            <span className={`${styles.vLine2} d-none d-md-block`}></span>
-            <span className={styles.vLine3}></span>
-            <span className={`${styles.vLine4} d-none d-md-block`}></span>
-            <span className={`${styles.vLine5} d-none d-md-block`}></span>
-            <span className={styles.vLine6}>
-              <Image 
-                src="/images/node-bright.svg" 
-                width={15} 
-                height={15} 
-                alt="Circle used for background style"
-                className={styles.node_sm2}
-              />
-            </span>
-            
+           
             <nav className="navbar text-center text-md-left">
               <Link className="navbar-brand mx-auto mx-md-4" href="/">
                 <Image 
-                  src="/images/RoadsTextWhite.png"
-                  alt="Roads Logo"
-                  height={50}
-                  width={125}
+                  src="/images/logo.svg"
+                  alt="Logo"
+                  height={150}
+                  width={150}
                   className=""
                 />
               </Link>
@@ -59,32 +28,32 @@ class Hero extends Component {
             <div className='text-center text-light'>
               <h1 className='pt-1 px-3 pb-3'>{title}</h1>
               <div className='row justify-content-center px-3'>
-                <p className='col-md-10 col-lg-6 col-xl-4'>
-                  {subtitle}
-                </p>
+                <h4 className='col-md-10 col-lg-6'>
+                 Najbolje mesto za oglase u Sandžaku i dijaspori !<br/> Besplatno postavi svoj oglas ili pronađi sve što ti je potrebno !
+                </h4>
               </div>
               < AppLinks />
             </div>
 
             <div className={`${styles.cover_imgs_container} text-center d-flex justify-content-center animate-slide-up`}>
                 <Image 
-                  src="/images/phones/device_15_home_feed2.png" 
-                  alt="Screenshot of Roads app showing the main player with several comments."
-                  height={400}
+                  src="/images/phones/device_ad_preview.png" 
+                  alt="Screenshot of ad preview."
+                  height={355.5}
                   width={200}
                   className='phone_shadow mt-5 d-none d-md-block'
                 />
                 <Image 
-                  src="/images/phones/device_15_player_full.png" 
-                  alt="Screenshot of Roads app showing the main player with several comments."
-                  height={500}
+                  src="/images/phones/device_home_page.png" 
+                  alt="Screenshot of home page."
+                  height={444.4}
                   width={250}
                   className='phone_shadow mx-4'
                 />
                 <Image 
-                  src="/images/phones/device_15_player_response.png" 
-                  alt="Screenshot of Roads app showing the main player with several comments."
-                  height={400}
+                  src="/images/phones/device_cars_category_preview.png" 
+                  alt="Screenshot of cars category."
+                  height={355.5}
                   width={200}
                   className='phone_shadow mt-5 d-none d-md-block'
                 />

@@ -14,87 +14,30 @@ export default function Home() {
       <main className={styles.main}>        
         <NodeOverlay />
         < Hero 
-          title="Private Podcasts With Friends"
-          subtitle="Roads Audio connects you with friends and family through meaningful, podcast-like conversations without scheduling conflicts."
+          title="Naši Oglasi"
         />
-
-        <div className='text-center'>
-          <h2 className="h2-lg my-lg my-lg">Watch The Demo</h2>
-          
-          <iframe 
-            className="youtube-video"
-            src="https://www.youtube.com/embed/w_H7ooZYnAY" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            loading='eager'
-            >
-          </iframe>
-        </div>
-
-         <div id={styles.section_reviews}>
-          <h2 className="h2-lg my-lg text-center">What People Are Saying</h2>
-          <div className="container">
-            <div className="row">
-              <Review 
-                body="Roads allows you to use your voice to stay connected with the world. The app is designed beautifully and is really intuitive."
-                name="Nolanmakatche"
-              />
-              <Review 
-                body="I first started using this app with a friend and it's a lot of fun. We use this app now instead of texting or voicemails since we are both traveling and it makes keeping up with each other a lot easier."
-                name="Sethconner10"
-              />
-              <Review 
-                body="One of the coolest apps I've used in a long time. A great way to communicate with family and friends."
-                name="neenu17"
-              />
-              <Review 
-                body="A game changer, the interactive audio comments bring conversations to life. It's been super fun chatting with my friends from all around the world on Roads."
-                name="makk1ntosh"
-              />
-              <Review 
-                body="I've tried a lot of chat apps and didn't think Roads would be any different. Glad I gave it a chance because it's much better than I expected!"
-                name="LFO16"
-                className="d-none d-md-block"
-              />
-              <Review 
-                body="I was not expecting to use this app as much as I have. It really pulls you in once you start using it!"
-                name="Jengla11"
-                className="d-none d-md-block"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className='text-center py-5 mt-5 bg-graident'>
-          <Link href="https://www.f6s.com/roads-audio" target="_blank">
-            <Image 
-              src="/images/f6s.png"
-              alt="Top Telecom startups in Virginia"
-              height={60}
-              width={291}
-            />
-          </Link>
-        </div>
  
         <div id={styles.section_features}>
-          <h2 className="h2-lg my-lg text-center">How Roads Is Unique</h2>
+          <h2 className="h2-lg my-lg text-center">Kako funkcioniše?</h2>
 
           <div className="container">
-            <div className="row justify-content-md-center">
+
+          <div className="row justify-content-md-center">
               <div className={`${styles.backsplash_container} col-md-6 col-lg-4 text-center`} >
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
-                  src="/images/phones/device_15_player_simple2.png" 
-                  alt="Screenshot of Roads app showing the main player with several comments."
-                  height={400}
+                  src="/images/phones/device_post_new_ad_listing.png" 
+                  alt="Screenshot of posting new ad listing."
+                  height={355.5}
                   width={200}
                   className={`${styles.backsplash_image} phone_shadow`}
                 />
               </div>
 
               <div className='col-md-6 col-lg-4 offset-lg-1 my-auto text-center text-md-start'>
-                <h3>Interactive Conversations</h3>
+                <h3>Besplatno postavljanje oglasa</h3>
                   <p>
-                    Comment on audio with your voice, creating a completely new layered communication experience.
+                     Jednostavno i brzo postavi svoj oglas da ga svi vide!
                   </p>
               </div>
             </div>
@@ -103,16 +46,18 @@ export default function Home() {
               <div className={`${styles.backsplash_container} col-md-6 col-lg-4 offset-lg-1 text-center`} >
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
-                  src="/images/phones/device_15_player_nested.png" 
-                  alt="Screenshot of Roads app showing the home page where new comments left by other users can be listened to."
-                  height={400}
+                  src="/images/phones/device_home_page_scrolled_down.png" 
+                  alt="Screenshot of Home page."
+                  height={355.5}
                   width={200}
                   className={`${styles.backsplash_image} phone_shadow`}
                 />
               </div>
                <div className='col-md-6 col-lg-4 my-auto order-md-first text-center text-md-start'>
-                <h3>Always Have Context</h3>
-                <p>When listening to a comment know exactly what's being referenced, and easily navigate the asynchronous conversation.</p>
+               <h3>Najnoviji oglasi</h3>
+                  <p>
+                      Početna stranica na kojoj se nalaze najnoviji oglasi gde lako možeš da pronađeš sve što te zanima.
+                  </p>
               </div>
             </div>
 
@@ -120,24 +65,41 @@ export default function Home() {
               <div className={`${styles.backsplash_container} col-md-6 col-lg-4 text-center`} >
                 <div className={`${styles.backsplash} mx-auto`}></div>
                 <Image 
-                  src="/images/phones/device_15_channel_invite.png" 
-                  alt="Screenshot of Roads app showing how to select friends to add to a channel."
-                  height={400}
+                  src="/images/phones/device_cars_category_preview.png" 
+                  alt="Screenshot of Cars category"
+                  height={355.5}
                   width={200}
                   className={`${styles.backsplash_image} phone_shadow`}
                 />
               </div>
 
               <div className='col-md-6 col-lg-4 offset-lg-1 my-auto text-center text-md-start'>
-                <h3>Control Access</h3>
-                <p>You control who has access to your content through channels. Only invited members can listen and collaborate on your conversations.</p>
+              <h3>Pretraga oglasa po kategoriji</h3>
+                <p>Izaberi kategoriju koja te zanima i pristupi najnovijim oglasima iz te kategorije.</p>
               </div>
             </div>
-
+            
+            <div className="row my-5 justify-content-md-center">
+              <div className={`${styles.backsplash_container} col-md-6 col-lg-4 offset-lg-1 text-center`} >
+                <div className={`${styles.backsplash} mx-auto`}></div>
+                <Image 
+                  src="/images/phones/device_ad_preview.png" 
+                  alt="Screenshot of Ad Preview"
+                  height={355.5}
+                  width={200}
+                  className={`${styles.backsplash_image} phone_shadow`}
+                />
+              </div>
+               <div className='col-md-6 col-lg-4 my-auto order-md-first text-center text-md-start'>
+               <h3>Pregled oglasa</h3>
+                <p>Pregledaj oglas koji te zanima jednim dodirom na njega.</p>
+              </div>
+            </div>
+            
           </div>
         </div>
 
-        <div id={styles.section_use_cases}>
+        {/* <div id={styles.section_use_cases}>
           <h2 className="h2-lg my-lg text-center">Ways To Use Roads</h2>
           <div className="container">
             <div className="row">
@@ -167,50 +129,45 @@ export default function Home() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div id={styles.section_faq}>
-          <h2 className="h2-lg my-lg text-center">FAQ&apos;s</h2>
+          <h2 className="h2-lg my-lg text-center">Najčešća Pitanja</h2>
           <div className="row justify-content-center">
             <div className="col-10 col-md-8 col-lg-6">
               
               <div className="accordion" id="faq_accordion">
                 <FaqItem 
                   itemNum="one"
-                  question="How do I start a conversation on Roads?"
-                  answer="You simply hit record in the app and start talking. After you finish recording you can add a title and share your recording in a channel so others can listen."
+                  question="Da li je postavljanje oglasa besplatno?"
+                  answer="Aplikacija je potpuno besplatna za korišćenje, što znači da možete slobodno pretraživati i postavljati oglase bez ikakvih troškova."
                 />
                 <FaqItem 
                   itemNum="two"
-                  question="Who can join my channels?"
-                  answer="Channels can be joined by anyone the channel owner chooses. If you are friends with someone on Roads you can add them to a channel automatically, if not you can send them a channel invite link. The channel owner controls who is in the channel."
+                  question="Kada je moj oglas objavljen?"
+                  answer="Tvoj oglas će biti ubrzo objavljen čim bude pregledan."
                 />
                 <FaqItem 
                   itemNum="three"
-                  question="How do I listen to comments that have been added to a conversation?"
-                  answer="When listening to a conversation if there is a comment, you'll have to option to take the road and listen to the comment. If you decide to listen, when the comment completes playing the original conversation will continue."
+                  question="Koliko mogu oglasa dnevno mogu da postavim?"
+                  answer="Možeš postaviti najviše 3 oglasa dnevno."
                 />
                 <FaqItem 
                   itemNum="four"
-                  question="What is the maximum recording length?"
-                  answer="Conversations and comments can be any length."
+                  question="Da li mogu da izmenim ili izbrišem oglas?"
+                  answer="Naravno da možeš. Odeš na pregled svog oglasa a zatim na gornjem desnom uglu ćeš naći opciju za izmenu ili brisanje."
                 />
                 <FaqItem 
                   itemNum="five"
-                  question="Can I edit or delete my recordings?"
-                  answer="There will be no support for editing audio in the initial version. However, you can always delete a recording that you create."
+                  question="Zašto moram da čekam pregled oglasa?"
+                  answer="Svi oglasi se pregledavaju kako bi tvoje i iskustvo drugih korisnika bilo bolje i sigurnije."
                 />
                 <FaqItem 
                   itemNum="seven"
-                  question="Does the app offer a free trial or a freemium version?"
-                  answer="Roads will always have a free version where all the core features will be available. Premium features will also be made available for a small fee."
-                />
-                <FaqItem 
-                  itemNum="eight"
-                  question="How can I delete my account and data?"
+                  question="Kako mogu izbrisati svoj nalog?"
                   answer={
                     <span>
-                      Within the app you can find a <strong>Delete Account</strong> link under settings which will delete your account and all related data. For full instructions <Link href="/delete-account">view this page.</Link>
+                      Opciju za <strong>Brisanje Naloga</strong> možeš naći na ekranu za podešavanje ili to možeš učiniti <Link href="https://forms.gle/hRPE29pk5fTa7boh9">ovde</Link>
                     </span>
                   }
                 />
@@ -221,7 +178,7 @@ export default function Home() {
         </div>
 
         <div id={styles.section_wait_list}>
-          <h2 className='h2-lg my-lg text-center text-primary'>Do More With Your Voice</h2>
+          <h2 className='h2-lg my-lg text-center text-primary'>Preuzmi Aplikaciju</h2>
           < AppLinks />
         </div>
       </main>

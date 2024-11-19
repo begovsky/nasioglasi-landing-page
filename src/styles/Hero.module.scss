@@ -9,8 +9,8 @@ $section_headline_height: 80vh;
   position: relative;
   height: $section_headline_height;
   width: 100vw;
-  background: rgb(22,130,94);
-  background: radial-gradient(circle, rgba(22,130,94,1) 0%, rgba(18,122,87,1) 30%, rgba(33,95,74,1) 100%);
+  background: rgba(0,0,0);
+  // background: radial-gradient(circle, rgb(0, 93, 62) 0%, rgb(4, 42, 29) 30%, rgb(17, 41, 33) 100%);
 
   #qr_code {
     position: absolute;
