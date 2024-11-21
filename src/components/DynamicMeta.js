@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import metaConfig from '@/utils/metaConfig';
+import Script from 'next/script';
 
 const DynamicMeta = () => {
   const router = useRouter();
@@ -46,6 +47,17 @@ const DynamicMeta = () => {
           <meta property="twitter:image" content={currentMeta.image} />
         </>
       )}
+
+      {/* <Script async src="https://www.googletagmanager.com/gtag/js?id=G-G9GE45064Q"></Script>
+      <Script id="google-analytics">
+          {`
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+         
+           gtag('config', 'G-G9GE45064Q');
+          `}
+      </Script> */}
 
     </Head>
   );

@@ -1,12 +1,10 @@
 import styles from '@/styles/Home.module.scss';
 import Image from 'next/image';
 import NodeOverlay from '@/components/NodeOverlay';
-import UseCase from '@/components/UseCase';
 import FaqItem from '@/components/FaqItem';
 import Hero from '@/components/Hero';
 import AppLinks from '@/components/AppLinks';
 import Link from 'next/link';
-import Review from '@/components/Review';
 
 export default function Home() {
   return (

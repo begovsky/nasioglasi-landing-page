@@ -13,7 +13,6 @@ class AppLinks extends Component {
   };
 
   render() {
-    const { forNav } = this.props;
     const appleLink = "https://apps.apple.com/rs/app/na%C5%A1i-oglasi/id6648797230"
     const googleLink = "https://play.google.com/store/apps/details?id=com.begovsky.nasioglasi"
     return (

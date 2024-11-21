@@ -3,7 +3,6 @@ import '@/styles/globals.scss';
 import '@/styles/blogs.scss';
 import { Montserrat } from 'next/font/google';
 import { useEffect } from 'react';
-import Head from 'next/head'
 import ReactGA from 'react-ga4';
 import DynamicMeta from '@/components/DynamicMeta';
 import useDropShadow from '@/hooks/useDropShadow';
@@ -18,7 +17,7 @@ export default function App({ Component, pageProps }) {
     require('bootstrap/dist/js/bootstrap.bundle.min.js');
 
     // Initialize Google Analyitics.
-    ReactGA.initialize(`${process.env.NEXT_PUBLIC_GTAG_ID}`)
+    ReactGA.initialize(`${process.env.NEXT_PUBLIC_GTAG_ID}`);
   }, []);
 
   return (
